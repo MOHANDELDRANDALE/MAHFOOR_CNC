@@ -14,7 +14,7 @@ const productsDataDefault = [
     code: "101",
     name: " أباجورة \"اللوتس الخشبية\" السحرية ✨,", 
     price: 465, 
-    discount: 0, 
+    discount: 100, 
     img: "https://i.postimg.cc/vHN8GnX1/1.jpg", 
     category: "ادوات منزلية", 
     details: " زهرة اللوتس الخشبية السحرية ✨ أباجورة مصنوعة يدويًا من شرائح خشب طبيعي تتفتح وتضيّ المكان بضوء دافئ وهادي. تحفة ديكور + إضاءة في نفس الوقت. من الكومود للصالون.. بتخطف كل العيون ", 
@@ -2182,3 +2182,4 @@ if (document.readyState === 'loading') {
 } else {
   initMobileFilterToggle();
 }
+
